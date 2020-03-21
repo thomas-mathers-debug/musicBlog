@@ -1,8 +1,13 @@
 import React from 'react'
+import Nav from './Nav'
+import './style/App.css'
+
 
 const App = () => {
   return (
-    <h1>React development has begun!</h1>
+    <>
+        <Nav/>
+    </>
   )
 }
 
