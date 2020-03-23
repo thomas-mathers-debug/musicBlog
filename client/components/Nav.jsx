@@ -10,11 +10,11 @@ class Nav extends Component {
             <div className = 'NavBar'>
                 <img className = 'logo ' src = './images/logo.png' alt ="logo"/>
                 <nav>
-                        <ul className = 'nav__links'>
-                            <li><a href="#">Music</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">About me</a></li>
-                        </ul>
+                        <div className = 'nav__links'>
+                            <a className = 'nav__link' href="#">Music</a>
+                            <a className = 'nav__link' href="#">Projects</a>
+                            <a className = 'nav__link' href="#">About me</a>
+                        </div>
 
                 </nav>
                 <a className = 'contact' href ='#'><button> Contact</button> </a>
