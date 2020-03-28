@@ -5,4 +5,5 @@ html,body { height: 100%; margin: 0; }
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: minmax(0, 1fr) repeat(24, 1fr);
+    background-color: rgb(52,58,64);
 }
