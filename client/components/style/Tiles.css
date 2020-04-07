@@ -1,7 +1,7 @@
 .tiles{
     background-color: rgb(42,35,50);
     grid-column: 1 / -1;
-    grid-row: 3 / 12;
+    grid-row: 3 / 10;
     display: grid;
 
 }

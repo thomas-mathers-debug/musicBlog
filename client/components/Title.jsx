@@ -7,8 +7,8 @@ class Title extends Component {
     render() {
         return (
             <div id = "tiletitle">
-                <h1> Hi I'm Tom</h1>
-                <h2> I'm a full-stack developer with a pasion for music </h2>
+                <nav className = 'main_title'> Hi i'm Tom and i'm ready to be a star</nav>
+                <nav className = 'main_title'> I'm a full-stack developer with a passion for music and creation </nav>
             </div>
         )
     }
